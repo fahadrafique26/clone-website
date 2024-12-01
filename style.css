@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #169E00;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    margin: 0.5%;
+
+    cursor: pointer;
+}
+
+.navitems {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #169E00;
+    cursor: pointer;
+
+}
+
+.navitems-cta {
+    background-color: #169E00;
+    color: white;
+    border-radius: 14px;
+    width: max-content;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    height: 50%;
+    width: 100%;
+    gap: 20px;
+    background-color: #169E00;
+    color: white;
+
+
+}
+
+.heroitem1 {
+    font-weight: 700;
+    font-size: 96px;
+
+}
+
+.heroitem2 {
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.heroitem3 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.heroitem4 {
+    background-color: white;
+    color: #169E00;
+    border-radius: 14px;
+    width: max-content;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectwo1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    color: #169E00;
+}
+
+.sectwo2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #A3A3A3;
+    padding-bottom: 30px;
+}
+
+.sectwo3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.rectangle1 {
+    background-color: #169E00;
+    color: black;
+    width: 600px;
+    height: 103px;
+    position: relative;
+}
+.polygon{
+    position: absolute;
+    top: 102.2px;
+}
+
+.rectangle2 {
+    background-color: #002A96;
+    color: white;
+    width: 600px;
+    height: 103px;
+    
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.sectwo4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    box-shadow: 20px;
+    height: 50%;
+}
+
+.box {
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    height: 90%;
+}
+
+.number {
+    background-color: #169E00;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    margin-bottom: 50px;
+}
+
+.card-bold {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    text-align: start;
+    padding-bottom: 12px;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px;
+    text-align: start;
+    color: #A3A3A3;
+}
+
+.sectwo5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sectwo5>h1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    color: #169E00;
+}
+
+.sectwo5>p {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.51px;
+    color: #A3A3A3;
+}
+
+.fourcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin: 5%;
+}
+
+.card {
+    box-shadow: 2px 2px 12px 5px #00000026;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+}
+
+.card .image-holder {
+    background-color: #169E00;
+    border-radius: 50px;
+    width: max-content;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #002A96;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    height: 50%;
+    width: 100%;
+    /* gap: 100px; */
+    padding: 1%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    
+}
