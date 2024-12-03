@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
-    margin: 0px;
-    padding: 0px;
-    font-family: "Montserrat", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+.navitems-cta a {
+    text-decoration: none;
+    background-color: #169E00;
+    color: white;
+
 }
 
 a {
     text-decoration: none;
     color: #169E00;
+
 }
 
 .navbar {
@@ -16,6 +25,7 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 
 }
 
@@ -35,10 +45,8 @@ a {
     line-height: 39px;
     color: #169E00;
     cursor: pointer;
-
 }
-
-.navitems-cta {
+.navitems-cta{
     background-color: #169E00;
     color: white;
     border-radius: 14px;
@@ -49,15 +57,14 @@ a {
     padding: 10px;
     cursor: pointer;
 }
-
 .hero-section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 40px;
-    height: 50%;
     width: 100%;
+    padding: 40px;
+    height: 90vh;
     gap: 20px;
     background-color: #169E00;
     color: white;
@@ -172,8 +179,8 @@ a {
 .number {
     background-color: #169E00;
     color: white;
-    height: 50px;
-    width: 50px;
+    height: 75px;
+    width: 80px;
     border-radius: 50%;
     padding: 15px 25px;
     text-align: center;
@@ -248,10 +255,15 @@ a {
     justify-content: space-evenly;
     align-items: center;
     color: white;
-    height: 50%;
-    width: 100%;
-    /* gap: 100px; */
+   
+ /* 
+     height: 50%;
+    gap: 100px; */
     padding: 1%;
+}
+.btn-subscribe{
+    display: flex;
+    justify-content: center;
 }
 
 .footer a{
