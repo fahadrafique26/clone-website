@@ -71,3 +71,31 @@
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
 }
+
+@media (max-width: 767px){
+  .services h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .services p{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+
+    
+  }
+  .service{
+    gap: 0px;
+  }
+  .content{
+    border-radius: 0px;
+    margin-inline: 24.5%;
+  }
+  .content2{
+    border-radius: 0px;
+    margin-inline: 24.5%;
+  }
+
+
+}

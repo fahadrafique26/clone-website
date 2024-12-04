@@ -61,3 +61,15 @@
     color: #A3A3A3;
 
 }
+
+@media (max-width: 767px){
+    .aboutus-heading{
+        font-size: 25px;
+    }
+
+    .our-team-area h1{
+        font-size: 30px;
+        display: flex;
+    }
+
+}

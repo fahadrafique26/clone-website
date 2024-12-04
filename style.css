@@ -64,7 +64,7 @@ a {
     justify-content: center;
     width: 100%;
     padding: 40px;
-    height: 90vh;
+    height: 80%;
     gap: 20px;
     background-color: #169E00;
     color: white;
@@ -270,4 +270,62 @@ a {
     text-decoration: none;
     color: white;
     
+}
+
+@media (max-width: 767px){
+    .navbar{
+        font-size: 16px;
+        justify-content: center;
+    }
+    .heroitem1{
+        font-size: 42px;
+        line-height: 42px;
+        
+    }
+    .heroitem2{
+        font-size: 42px;
+        line-height: 42px;
+
+    }
+
+    .sectwo1{
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .sectwo2{
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .sectwo3{
+        font-size: 16px;
+        line-height: 42px;
+        
+    }
+    .polygon{
+        display: none;
+    }
+    
+    .sectwo5{
+        font-size: 12px;
+        justify-content: center;
+    }
+
+    
+    .sectwo5 p{
+        font-size: 25px;
+
+    }
+
+    .footer{
+        font-size: 42px;
+        line-height: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
 }
