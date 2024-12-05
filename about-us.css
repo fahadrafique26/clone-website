@@ -20,6 +20,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 40px;
+    gap: 32px;
+
 }
 
 .our-team-heading {
