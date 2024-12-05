@@ -274,7 +274,7 @@ a {
 
 @media (max-width: 767px){
     .navbar{
-        font-size: 14px;
+        font-size: 10px;
         justify-content: center;
     }
     .heroitem1{
